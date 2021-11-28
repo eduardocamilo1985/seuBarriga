@@ -5,7 +5,6 @@
 * [Tecnologias utilizadas](#tecnologia)
 * [Utilização/estrutura](#utilizacao)
 * [Casos de teste](#casos)
-    * [Funcionalidade: Cadastro de usuários](#CadastrarConta)
 * [Links para consulta](#link)
 <!--te-->
 
