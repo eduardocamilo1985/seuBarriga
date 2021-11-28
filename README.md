@@ -65,6 +65,9 @@ A classe **Basic** contém toda a parte Selenium utilizada.
 A classe **EvidenciaWord** é responsável por criar o arquivo docx (arquivo Word) que servirá para evidenciar
 os testes realizados. As evidências de testes serão geradas na pasta raiz do projeto.
 
+A classe **RunnerTest** é a classe responsável pela execução dos testes através do JUnit.
+Execute essa classe e você verá os testes sendo executados.
+
 A **package Page** contém todo o mapeamento de elementos da aplicação. Para cada página da aplicação web,
 existe uma classe chamada NomePaginaPage que estende da classe Basic. Exemplo página da criação da conta = ContaPage.  
 
