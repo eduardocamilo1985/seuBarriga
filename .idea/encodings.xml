@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/Pages/ContaPage.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Pages/HomePage.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Pages/MenuPage.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Pages/MovimentacaoPage.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Runners/RunnerTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Steps/ComunsSteps.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Steps/InserirContaStep.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Steps/MovimentacaoStep.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/estrutura/EvidenciaWord.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/features/InserirConta.feature" charset="UTF-8" />
+  </component>
+</project>

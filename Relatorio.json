@@ -1,0 +1,657 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7109980000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:28:29.015Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15624300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Deve adicionar conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-adicionar-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 657197500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2458194700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 988083100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario adicionar uma conta \"Conta de luz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta de luz\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.InserirContaStep.adicionarUmaConta(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 15627800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema apresenta a mensagem \"Conta adicionada com sucesso!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta adicionada com sucesso!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.InserirContaStep.oSistemaApresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6464127200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:28:40.338Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Deve adicionar conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-adicionar-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 782191300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 262602300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 964853300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuario adicionar uma conta \"Salário mensal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Salário mensal\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.InserirContaStep.adicionarUmaConta(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 37760200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o sistema apresenta a mensagem \"Conta adicionada com sucesso!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Conta adicionada com sucesso!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.InserirContaStep.oSistemaApresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6331509300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:28:48.850Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Não deve adicionar conta duplicada",
+        "description": "",
+        "id": "cadastro-de-contas;não-deve-adicionar-conta-duplicada",
+        "after": [
+          {
+            "result": {
+              "duration": 672342400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 375015800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 887060400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o usuario adicionar uma conta ja existente",
+            "match": {
+              "location": "Steps.InserirContaStep.adicionarContaExistente()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 31243400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o sistema apresenta a mensagem \"Já existe uma conta com esse nome!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Já existe uma conta com esse nome!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.InserirContaStep.oSistemaApresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6618380200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:28:57.147Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Não deve adicionar conta em branco",
+        "description": "",
+        "id": "cadastro-de-contas;não-deve-adicionar-conta-em-branco",
+        "after": [
+          {
+            "result": {
+              "duration": 651300400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 456132000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 839908200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "o usuario adicionar uma conta em branco",
+            "match": {
+              "location": "Steps.InserirContaStep.adicionarContaEmBranco()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 24006000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "o sistema apresenta a mensagem \"Informe o nome da conta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Informe o nome da conta\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.InserirContaStep.oSistemaApresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "  Como um usuario\n  Gostaria de cadastrar contas\n  Para que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/features/InserirConta.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7367013300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:29:05.754Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "movimentação;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 673094500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3658936300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario criar uma movimentacao com os dados \"Despesa\"\"25/11/2021\"\"25/11/2021\"\"Pagamento de luz\"\"Light\"\"500\"\"Conta de luz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Despesa\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"25/11/2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"25/11/2021\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Pagamento de luz\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"Light\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"Conta de luz\"",
+                  "offset": 109
+                }
+              ],
+              "location": "Steps.MovimentacaoStep.criarMovimentacaoSucesso(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 353617200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema apresenta a mensagem \"Movimentação adicionada com sucesso!\" da movimentacao",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Movimentação adicionada com sucesso!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.MovimentacaoStep.apresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Movimentacao"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Realizar login",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6729147200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que o usuário realiza login com sucesso",
+            "match": {
+              "location": "Steps.InserirContaStep.usuarioRealizaLoginComSucesso()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-28T22:29:17.807Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.nomeCenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "movimentação;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 698225900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.MovimentacaoStep.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.InserirContaStep.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366147600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario criar uma movimentacao com os dados \"Receita\"\"27/11/2021\"\"27/11/2021\"\"Salário da empresa X\"\"Fulano\"\"5000\"\"Salário mensal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Receita\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"27/11/2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"27/11/2021\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Salário da empresa X\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"Fulano\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"5000\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"Salário mensal\"",
+                  "offset": 115
+                }
+              ],
+              "location": "Steps.MovimentacaoStep.criarMovimentacaoSucesso(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 352722200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema apresenta a mensagem \"Movimentação adicionada com sucesso!\" da movimentacao",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Movimentação adicionada com sucesso!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.MovimentacaoStep.apresentaMensagem(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Movimentacao"
+          }
+        ]
+      }
+    ],
+    "name": "Movimentação",
+    "description": "  Como um usuário\n  Eu gostaria de criar movimentações de contas\n  Para que eu possa controlar os pagamentos/recebimentos de contas",
+    "id": "movimentação",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/features/InserirMovimentacao.feature",
+    "tags": []
+  }
+]
